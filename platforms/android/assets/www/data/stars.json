@@ -1,0 +1,218 @@
+[
+  {
+    "code": "Ashwini",
+    "peyar": "\u0B85\u0B9A\u0BC1\u0BB5\u0BBF\u0BA9\u0BBF",
+    "order": "1",
+    "meaning": "Some Meaning for Ashwini",
+    "chars": "Su/Chu, Se/Che, So/Cho, La",
+    "ezuthu": "\u0B9A\u0BC1, \u0B9A\u0BC7, \u0B9A\u0BCB, \u0BB2\u0BBE - \u0B9A\u0BC6, \u0B9A\u0BC8"
+  },
+  {
+    "code": "Bharani",
+    "peyar": "\u0BAA\u0BB0\u0BA3\u0BBF",
+    "order": "2",
+    "meaning": "Some Meaning for Barani",
+    "chars": "Lee/Li, Lu, Le, Lo, So",
+    "ezuthu": "\u0BB2\u0BBF, \u0BB2\u0BC1, \u0BB2\u0BC7, \u0BB2\u0BCB - \u0B9A\u0BCA, \u0B9A\u0BCC"
+  },
+  {
+    "code": "Krithika",
+    "peyar": "\u0B95\u0BBF\u0BB0\u0BC1\u0BA4\u0BCD\u0BA4\u0BBF\u0B95\u0BC8",
+    "order": "3",
+    "meaning": "Some Meaning for Krithika",
+    "chars": "A, E, U, Ea",
+    "ezuthu": "\u0B85, \u0B87, \u0B89, \u0B8E - \u0B86, \u0B88"
+  },
+  {
+    "code": "Rohini",
+    "peyar": "\u0BB0\u0BCB\u0B95\u0BBF\u0BA3\u0BBF",
+    "order": "4",
+    "meaning": "Some Meaning for Rohini",
+    "chars": "O, Va, Vi, Vu",
+    "ezuthu": "\u0B92, \u0BB5, \u0BB5\u0BBF, \u0BB5\u0BC1 - \u0BB5\u0BBE, \u0BB5\u0BBF"
+  },
+  {
+    "code": "Mrigashirsham",
+    "peyar": "\u0BAE\u0BBF\u0BB0\u0BC1\u0B95\u0B9A\u0BBF\u0BB0\u0BC0\u0BB7\u0BAE\u0BCD",
+    "order": "5",
+    "meaning": "Some Meaning for Mrigashirsham",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BB5\u0BC7, \u0BB5\u0BCB, \u0B95\u0BBE, \u0B95\u0BBF - \u0BB5\u0BC8, \u0BB5\u0BCA"
+  },
+  {
+    "code": "Thiruvathirai",
+    "peyar": "\u0BA4\u0BBF\u0BB0\u0BC1\u0BB5\u0BBE\u0BA4\u0BBF\u0BB0\u0BC8",
+    "order": "6",
+    "meaning": "Some Meaning for Thiruvathirai",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0B95\u0BC1, \u0B95, \u0B9E, \u0B9A - \u0B95\u0BC2, \u0B95\u0BBE "
+  },
+  {
+    "code": "Punarpoosam",
+    "peyar": "\u0BAA\u0BC1\u0BA9\u0BB0\u0BCD\u0BAA\u0BC2\u0B9A\u0BAE\u0BCD",
+    "order": "7",
+    "meaning": "Some Meaning for Punarpoosam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0B95\u0BC7, \u0B95\u0BCB, \u0BB9, \u0BB9\u0BBF - \u0B95\u0BC6, \u0B95\u0BC8"
+  },
+  {
+    "code": "Poosam",
+    "peyar": "\u0BAA\u0BC2\u0B9A\u0BAE\u0BCD",
+    "order": "8",
+    "meaning": "Some Meaning for Poosam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BB7\u0BC1, \u0BB9\u0BC7, \u0BB9\u0BCB - \u0B95\u0BCA, \u0B95\u0BCC"
+  },
+  {
+    "code": "Aayilyam",
+    "peyar": "\u0B86\u0BAF\u0BBF\u0BB2\u0BCD\u0BAF\u0BAE\u0BCD",
+    "order": "9",
+    "meaning": "Some Meaning for Aayilyam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u00A0\u0B9F\u0BBF, \u0B9F\u0BC1, \u0B9F\u0BC6, \u0B9F\u0BCA - \u0BAE\u0BC6, \u0BAE\u0BC8"
+  },
+  {
+    "code": "Makam",
+    "peyar": "\u0BAE\u0B95\u0BAE\u0BCD",
+    "order": "10",
+    "meaning": "Some Meaning for Makam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAE, \u0BAE\u0BBF, \u0BAE\u0BC1, \u0BAE\u0BC6 - \u0BAE\u0BBE, \u0BAE\u0BC0"
+  },
+  {
+    "code": "Pooram",
+    "peyar": "\u0BAA\u0BC2\u0BB0\u0BAE\u0BCD",
+    "order": "11",
+    "meaning": "Some Meaning for Pooram",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAE\u0BCB, \u0B9F, \u0B9F\u0BBF, \u0B9F\u0BC1 - \u0BAE\u0BCA, \u0BAE\u0BCC"
+  },
+  {
+    "code": "Uthiram",
+    "peyar": "\u0B89\u0BA4\u0BCD\u0BA4\u0BBF\u0BB0\u0BAE\u0BCD",
+    "order": "12",
+    "meaning": "Some Meaning for Uthiram",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0B9F\u0BC7, \u0B9F\u0BCB, \u0BAA, \u0BAA\u0BBF - \u0BAA\u0BBE, \u0BAA\u0BBF"
+  },
+  {
+    "code": "Astham",
+    "peyar": "\u0B85\u0BB8\u0BCD\u0BA4\u0BAE\u0BCD\u00A0",
+    "order": "13",
+    "meaning": "Some Meaning for Hastham",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAA\u0BC2, \u0BB7, \u0BA3, \u0B9F\u00A0- \u0BAE\u0BC7"
+  },
+  {
+    "code": "Chithirai",
+    "peyar": "\u0B9A\u0BBF\u0BA4\u0BCD\u0BA4\u0BBF\u0BB0\u0BC8",
+    "order": "14",
+    "meaning": "Some Meaning for Chithirai",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAA\u0BC7, \u0BAA\u0BCB, \u0BB0, \u0BB0\u0BBF - \u0BAA\u0BC8, \u0BAA\u0BCC"
+  },
+  {
+    "code": "Swaathi",
+    "peyar": "\u0B9A\u0BC1\u0BB5\u0BBE\u0BA4\u0BBF",
+    "order": "15",
+    "meaning": "Some Meaning for Swaathi",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BB0\u0BC1, \u0BB0\u0BC7, \u0BB0\u0BCB, \u0BA4 - \u0BA4\u0BBE"
+  },
+  {
+    "code": "Visaakam",
+    "peyar": "\u0BB5\u0BBF\u0B9A\u0BBE\u0B95\u0BAE\u0BCD",
+    "order": "16",
+    "meaning": "Some Meaning for Visaakam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BA4\u0BBF, \u0BA4\u0BC1, \u0BA4\u0BC7, \u0BA4\u0BCB - \u0BA4\u0BC2, \u0BA4\u0BC8"
+  },
+  {
+    "code": "Anusham",
+    "peyar": "\u0B85\u0BA9\u0BC1\u0BB7\u0BAE\u0BCD",
+    "order": "17",
+    "meaning": "Some Meaning for Anusham",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BA8, \u0BA8\u0BBF, \u0BA8\u0BC1, \u0BA8\u0BC7 - \u0BA8\u0BBE, \u0BA8\u0BC0, \u0BA8\u0BC2"
+  },
+  {
+    "code": "Kettai",
+    "peyar": "\u0B95\u0BC7\u0B9F\u0BCD\u0B9F\u0BC8",
+    "order": "18",
+    "meaning": "Some Meaning for Kettai",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BA8\u0BCB, \u0BAF, \u0BAF\u0BBF, \u0BAF\u0BC1 - \u0BA8\u0BC7, \u0BA8\u0BC8"
+  },
+  {
+    "code": "Moolam",
+    "peyar": "\u0BAE\u0BC1\u0BB2\u0BAE\u0BCD",
+    "order": "19",
+    "meaning": "Some Meaning for Moolam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAF\u0BC7, \u0BAF\u0BCB, \u0BAA, \u0BAA\u0BBF - \u0BAA\u0BC1, \u0BAF\u0BC2"
+  },
+  {
+    "code": "Pooradam",
+    "peyar": "\u0BAA\u0BC2\u0BB0\u0BBE\u0B9F\u0BAE\u0BCD",
+    "order": "20",
+    "meaning": "Some Meaning for Pooradam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAA\u0BC2, \u0BA4, \u0BAA, \u0B9F - \u0B8A, \u0BED, \u0B8F"
+  },
+  {
+    "code": "Uthiraadam",
+    "peyar": "\u0B89\u0BA4\u0BCD\u0BA4\u0BBF\u0BB0\u0BBE\u0B9F\u0BAE\u0BCD",
+    "order": "21",
+    "meaning": "Some Meaning for Uthiraadam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BAA\u0BC7, \u0BAA\u0BCB, \u0B9C, \u0B9C\u0BBF - \u0B93, \u0B92, \u0B94"
+  },
+  {
+    "code": "Thiruvonam",
+    "peyar": "\u0BA4\u0BBF\u0BB0\u0BC1\u0BB5\u0BCB\u0BA3\u0BAE\u0BCD",
+    "order": "22",
+    "meaning": "Some Meaning for Thiruvonam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0B9C\u0BC2, \u0B9C\u0BC7, \u0B9C\u0BCB, \u0B95\u0BBE - \u0B95, \u0B95\u0BBE, \u0B95\u0BBF, \u0B95\u0BC0"
+  },
+  {
+    "code": "Avittam",
+    "peyar": "\u0B85\u0BB5\u0BBF\u0B9F\u0BCD\u0B9F\u0BAE\u0BCD",
+    "order": "23",
+    "meaning": "Some Meaning for Avittam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0B95, \u0B95\u0BC0, \u0B95\u0BC1, \u0B95\u0BC6 - \u0B9E, \u0B9E\u0BBE, \u0B95\u0BC7"
+  },
+  {
+    "code": "Sadayam",
+    "peyar": "\u0B9A\u0BA4\u0BAF\u0BAE\u0BCD",
+    "order": "24",
+    "meaning": "Some Meaning for Sadayam",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0B95\u0BCB, \u0BB8, \u0BB8\u0BC0, \u0BB8\u0BC2 - \u0BA4\u0BCB, \u0BA4\u0BCC"
+  },
+  {
+    "code": "Poorattathi",
+    "peyar": "\u0BAA\u0BC2\u0BB0\u0B9F\u0BCD\u0B9F\u0BBE\u0BA4\u0BBF",
+    "order": "25",
+    "meaning": "Some Meaning for Poorattathi",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BB8\u0BC7, \u0BB8\u0BCB, \u0BA4, \u0BA4\u0BC0 - \u0BA8\u0BCB, \u0BA8\u0BCC"
+  },
+  {
+    "code": "Uthirattathi",
+    "peyar": "\u0B89\u0BA4\u0BCD\u0BA4\u0BBF\u0BB0\u0B9F\u0BCD\u0B9F\u0BBE\u0BA4\u0BBF",
+    "order": "26",
+    "meaning": "Some Meaning for Uthirattathi",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BA4\u0BC1, \u0BAF, \u0B9A, \u0BB8\u0BCD\u0BB0\u0BC0\u0BCD - \u0BAF\u0BBE, \u0B9E"
+  },
+  {
+    "code": "Revathi",
+    "peyar": "\u0BB0\u0BC7\u0BB5\u0BA4\u0BBF",
+    "order": "27",
+    "meaning": "Some Meaning for Revathi",
+    "chars": "a,d,f,g",
+    "ezuthu": "\u0BA4\u0BC7, \u0BA4\u0BCB, \u0B9A, \u0B9A\u0BBF - \u0B9A\u0BBE, \u0B9A\u0BC0 "
+  }
+]

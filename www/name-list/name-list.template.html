@@ -1,0 +1,76 @@
+
+   
+    <md-tabs md-dynamic-height md-border-bottom>
+      <md-tab label="Alphabet">
+          <div layout="row" flex="">
+            <md-tabs flex="">
+             <md-tab label="{{alphabet}}" layout="row" ng-repeat="alphabet in $ctrl.alphabets" md-on-select="$ctrl.indexed(alphabet)">
+               <md-list-item ng-repeat="name in $ctrl.names" ng-show="$ctrl.names.length > 0" ng-click="null" layout="row" flex="">
+                 <img ng-src="img/icons/{{name.sex}}_avatar.png" class="md-avatar" alt="{{name.sex}}" />
+                 <div class="md-list-item-text" layout="column" flex="">
+                   <p class="name">{{ name.name}} - {{ name.peyar}} </p>
+                 </div>
+                 <md-icon md-svg-icon="img/icons/favorite_border.svg" class="md-secondary" ng-click="favourite($event)" aria-label="Chat"></md-icon>
+                 <md-divider ></md-divider>
+               </md-list-item>
+               <div layout="row" layout-align="space-around" flex="" ng-hide="$ctrl.names.length > 0">
+                 <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+               </div>
+             </md-tab>
+            </md-tabs> 
+            <!-- <div class="filter-char md-raised" ng-repeat="alphabet in $ctrl.alphabets" layout="column">
+              <md-button class="md-accent md-hue-3 md-raised md-padding name-index" ng-click="$ctrl.indexed(alphabet)" ng-disabled="alphabet==$ctrl.idx">
+                {{ alphabet }}
+              </md-button>
+            </div> -->
+          </div> 
+      
+        
+      </md-tab>
+      <md-tab label="Nakshatra" layout="row" md-on-select="$ctrl.byNaksha()">
+        <md-toolbar class="md-hue-3" layout="row">
+          <div flex="" layout="column" class="star-section animate-star-head" ng-if="$ctrl.star"> 
+            <h3 class="toolbar-head">{{$ctrl.star.peyar}}</h3>
+            <p class="toolbar-desc">{{$ctrl.star.ezuthu}}</p> 
+          </div>
+          <div flex="" layout="column" class="star-section" ng-if="!$ctrl.star"> 
+            <h3 class="toolbar-head">All Stars</h3>
+          </div>
+
+          <md-menu md-position-mode="target-right target" >
+            <md-button aria-label="Open demo menu" class="md-icon-button" ng-click="$mdOpenMenu($event)">
+              <md-icon md-svg-icon="img/icons/filter.svg"></md-icon>
+            </md-button>
+            <md-menu-content width="4" >
+              <md-menu-item ng-repeat="star in $ctrl.stars">
+                <md-button ng-click="$ctrl.byNaksha(star)">
+                  <div layout="row" flex>
+                    <p flex>{{star.peyar}} - {{star.code}} </p>
+                  </div>
+                </md-button>
+              </md-menu-item>
+            </md-menu-content>
+          </md-menu>
+        </md-toolbar> 
+        <md-content class="md-padding">
+	       <md-list-item ng-repeat="name in $ctrl.names" ng-show="$ctrl.names.length > 0" ng-click="null" layout="row" flex="">
+	         <img ng-src="img/icons/{{name.sex}}_avatar.png" class="md-avatar" alt="{{name.sex}}" />
+	         <div class="md-list-item-text" layout="column" flex="">
+	           <p class="name">{{ name.name}} - {{ name.peyar}} </p>
+	         </div>
+	         <md-icon md-svg-icon="img/icons/favorite_border.svg" class="md-secondary" ng-click="favourite($event)" aria-label="Chat"></md-icon>
+	         <md-divider ></md-divider>
+	       </md-list-item>
+	       <div layout="row" layout-align="space-around" flex="" ng-hide="$ctrl.names.length > 0">
+	         <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+	       </div>
+	        </md-content>
+      </md-tab>
+      <md-tab label="Favourite">
+        <md-content class="md-padding">
+          <h1 class="md-display-2">Favourite</h1>
+          <p>Favourites</p>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+  

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" ng-app="kuzandhaiApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kuzandhai App</title>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link rel="stylesheet" href="css/kuzandhai.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-resource.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-sanitize.js"></script>
+
+    <!-- Angular Material Library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+    <script src="lib/underscore-min.js"></script>
+    <script src="lib/angular-underscore-module.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="dashboard/dashboard.module.js"></script>
+    <script src="dashboard/dashboard.component.js"></script>
+    <script src="name-list/name-list.module.js"></script>
+    <script src="name-list/name-list.component.js"></script>
+ 
+    <script src="core/core.module.js"></script>
+    <script src="core/name/name.module.js"></script>
+    <script src="core/name/name.service.js"></script>
+    <script src="core/star/star.module.js"></script>
+    <script src="core/star/star.service.js"></script>
+
+    <!-- script src="app.animations.js"></script>
+    <script src="core/checkmark/checkmark.filter.js"></script>
+    <script src="phone-detail/phone-detail.module.js"></script>
+    <script src="phone-detail/phone-detail.component.js"></script -->
+  </head>
+  <body>
+     
+     <md-toolbar>
+      <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+          <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+        </md-button>
+        <h2>
+          <span>Kuzandhai</span>
+        </h2>
+        <span flex></span>
+        <!-- md-button class="md-icon-button" aria-label="Favorite">
+          <md-icon md-svg-icon="img/icons/favorite.svg" style="color: greenyellow;"></md-icon>
+        </md-button -->
+        <md-button class="md-icon-button" aria-label="More">
+          <md-icon md-svg-icon="img/icons/more_vert.svg"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <div ng-view ng-cloak></div>
+ 
+  </body>
+</html>
